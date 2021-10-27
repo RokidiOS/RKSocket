@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RKSocket_Example' do
+  pod 'RKSocket', :path => '../'
+
+  target 'RKSocket_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
