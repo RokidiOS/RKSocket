@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chzy' => 'yang.chunzhi@hotmail.com' }
-  s.source           = { :git => 'https://github.com/chzy/RKSocket.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@gitlab.rokid-inc.com:xr_app_platform/ios/basic/rksocket.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 #  s.swift_versions='5.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
