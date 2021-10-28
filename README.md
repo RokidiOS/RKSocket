@@ -21,17 +21,17 @@ pod 'RKSocket'
 ```
 
 ## Use
-详情参考demo
-...
+###详情参考demo
+```
 import RKSocket
 var address = "wss://XXXX"
 RKSocket.share.config(address)
 RKSocket.share.openClient()
 RKSocket.share.delegate = self
-...
+```
 
-消息回调
-...
+###消息回调
+```
 extension ViewController: RKSocketDelegate {
     func rkwebSocket(_ webSocket: RKSocket, didFailWithError error: Error) {
         
@@ -66,7 +66,7 @@ extension ViewController: RKSocketDelegate {
     }
 
 }
-...
+```
 
 ## Author
 
