@@ -27,11 +27,11 @@ TODO: Add long description of the pod here.
   s.author           = { 'chzy' => 'yang.chunzhi@hotmail.com' }
   s.source           = { :git => 'https://github.com/chzy/RKSocket.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+#  s.swift_versions='5.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
   s.ios.deployment_target = '9.0'
-
   s.source_files = 'RKSocket/Classes/**/*'
-  
+  s.dependency 'SocketRocket', '~> 0.6.0'
   # s.resource_bundles = {
   #   'RKSocket' => ['RKSocket/Assets/*.png']
   # }

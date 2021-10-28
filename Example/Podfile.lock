@@ -1,0 +1,23 @@
+PODS:
+  - RKSocket (0.1.0):
+    - SocketRocket
+  - SocketRocket (0.6.0)
+
+DEPENDENCIES:
+  - RKSocket (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  RKSocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKSocket: 52a562aed312211efd6a2e4e54aa4e1b8dca859a
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+
+PODFILE CHECKSUM: 3944834ec8160ea7bd7b2cdff3299d183fcacda3
+
+COCOAPODS: 1.11.2

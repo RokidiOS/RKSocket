@@ -1,0 +1,30 @@
+{
+  "name": "RKSocket",
+  "version": "0.1.0",
+  "summary": "A short description of RKSocket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chzy/RKSocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chzy": "yang.chunzhi@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chzy/RKSocket.git",
+    "tag": "0.1.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RKSocket/Classes/**/*",
+  "dependencies": {
+    "SocketRocket": [
+
+    ]
+  }
+}
