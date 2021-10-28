@@ -22,48 +22,49 @@ pod 'RKSocket'
 
 ## Use
 详情参考demo
+‘’‘
 import RKSocket
-    var address = "wss://XXXX"
-    RKSocket.share.config(address)
-    RKSocket.share.openClient()
-    RKSocket.share.delegate = self
-    
+var address = "wss://XXXX"
+RKSocket.share.config(address)
+RKSocket.share.openClient()
+RKSocket.share.delegate = self
+’‘’
     消息回调
+    ‘’‘
     extension ViewController: RKSocketDelegate {
-    func rkwebSocket(_ webSocket: RKSocket, didFailWithError error: Error) {
+        func rkwebSocket(_ webSocket: RKSocket, didFailWithError error: Error) {
+            
+        }
         
-    }
-    
-    func rkwebSocketDidOpen(_ webSocket: RKSocket) {
+        func rkwebSocketDidOpen(_ webSocket: RKSocket) {
+            
+        }
         
-    }
-    
-    func rkwebSocket(_ webSocket: RKSocket, didCloseWithCode code: Int, reason: String?, wasClean: Bool) {
+        func rkwebSocket(_ webSocket: RKSocket, didCloseWithCode code: Int, reason: String?, wasClean: Bool) {
+            
+        }
         
-    }
-    
-    func rkwebSocket(_ webSocket: RKSocket, didReceiveMessage message: Any) {
-        print("didReceiveMessageWith message: \(message)")
-    }
-    
-    func rkwebSocket(_ webSocket: RKSocket, didReceiveMessageWith data: Data) {
+        func rkwebSocket(_ webSocket: RKSocket, didReceiveMessage message: Any) {
+            print("didReceiveMessageWith message: \(message)")
+        }
         
-    }
-    
-    func rkwebSocket(_ webSocket: RKSocket, didReceiveMessageWith string: String) {
-        print("didReceiveMessageWith: string " + string)
-    }
-    
-    func rkwebSocket(_ webSocket: RKSocket, didReceivePingWith data: Data?) {
+        func rkwebSocket(_ webSocket: RKSocket, didReceiveMessageWith data: Data) {
+            
+        }
         
-    }
-    
-    func rkwebSocket(_ webSocket: RKSocket, didReceivePong pongData: Data?) {
+        func rkwebSocket(_ webSocket: RKSocket, didReceiveMessageWith string: String) {
+            print("didReceiveMessageWith: string " + string)
+        }
         
-    }
+        func rkwebSocket(_ webSocket: RKSocket, didReceivePingWith data: Data?) {
+            
+        }
+        
+        func rkwebSocket(_ webSocket: RKSocket, didReceivePong pongData: Data?) {
+            
+        }
     
-    
-}
+    }’‘’
 
 ## Author
 
