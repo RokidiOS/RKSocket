@@ -1,22 +1,15 @@
 PODS:
-  - RKSocket (0.1.0):
-    - SocketRocket (~> 0.6.0)
-  - SocketRocket (0.6.0)
+  - RKSocket (0.1.1)
 
 DEPENDENCIES:
   - RKSocket (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SocketRocket
 
 EXTERNAL SOURCES:
   RKSocket:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RKSocket: dc8cd29a160bf5497040a1a7b573049876aab9a1
-  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  RKSocket: aa0880ee27903756ddb87609339b371070890941
 
 PODFILE CHECKSUM: 3944834ec8160ea7bd7b2cdff3299d183fcacda3
 

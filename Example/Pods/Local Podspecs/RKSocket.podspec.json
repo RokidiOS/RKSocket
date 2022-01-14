@@ -1,6 +1,6 @@
 {
   "name": "RKSocket",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "rokid 基础socket库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chzy/RKSocket",
@@ -13,20 +13,15 @@
   },
   "source": {
     "git": "git@gitlab.rokid-inc.com:xr_app_platform/ios/basic/rksocket.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "swift_versions": "5.0",
-  "pod_target_xcconfig": {
-    "SWIFT_VERSION": "5"
-  },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "RKSocket/Classes/**/*",
-  "dependencies": {
-    "SocketRocket": [
-      "~> 0.6.0"
-    ]
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
   },
   "swift_version": "5.0"
 }

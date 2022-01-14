@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
   s.ios.deployment_target = '9.0'
   s.source_files = 'RKSocket/Classes/**/*'
-  s.dependency 'SocketRocket', '~> 0.6.0'
+  # s.dependency 'SocketRocket', '~> 0.6.0' 
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   # s.resource_bundles = {
   #   'RKSocket' => ['RKSocket/Assets/*.png']
   # }
