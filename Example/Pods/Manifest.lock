@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RKSocket: 52a562aed312211efd6a2e4e54aa4e1b8dca859a
+  RKSocket: 82cb644a569b8e2d1e28eb189da1fb3ee941d928
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
 PODFILE CHECKSUM: 3944834ec8160ea7bd7b2cdff3299d183fcacda3

@@ -1,7 +1,7 @@
 {
   "name": "RKSocket",
   "version": "0.1.0",
-  "summary": "A short description of RKSocket.",
+  "summary": "rokid 基础socket库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chzy/RKSocket",
   "license": {
@@ -12,7 +12,7 @@
     "chzy": "yang.chunzhi@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/chzy/RKSocket.git",
+    "git": "git@gitlab.rokid-inc.com:xr_app_platform/ios/basic/rksocket.git",
     "tag": "0.1.0"
   },
   "pod_target_xcconfig": {

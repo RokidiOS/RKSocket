@@ -58,6 +58,16 @@ public class RKSocket: NSObject {
         client?.open()
     }
     
+    /// 重连
+    public func reconnect() {
+        guard let url = client?.url else { return }
+        client?.delegate = nil
+        client?.close()
+        client = nil
+        config(url.absoluteString)
+        openClient()
+    }
+    
     /// 关闭连接
     public func closeClient() {
         client?.close()
