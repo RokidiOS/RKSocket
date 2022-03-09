@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'RKSocket/Classes/**/*'
 
 #  s.ios.vendored_frameworks = "RKSocket/Frameworks/*.framework"
-  s.dependency 'SocketRocket'
+#  s.dependency 'SocketRocket'
 
   # s.dependency 'SocketRocket', '~> 0.6.0' 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }

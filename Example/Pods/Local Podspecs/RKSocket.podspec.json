@@ -20,11 +20,6 @@
     "ios": "9.0"
   },
   "source_files": "RKSocket/Classes/**/*",
-  "dependencies": {
-    "SocketRocket": [
-
-    ]
-  },
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
   },
