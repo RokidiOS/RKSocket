@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SocketRocket
 
 public protocol RKSocketDelegate: NSObjectProtocol {
 //   @objc optional

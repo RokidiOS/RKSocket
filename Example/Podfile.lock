@@ -1,5 +1,5 @@
 PODS:
-  - RKSocket (0.1.0):
+  - RKSocket (0.1.1):
     - SocketRocket
   - SocketRocket (0.6.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RKSocket: 82cb644a569b8e2d1e28eb189da1fb3ee941d928
+  RKSocket: b1dc4dbdf4ac07a72202a50795812d5f0b0e4858
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
 PODFILE CHECKSUM: 3944834ec8160ea7bd7b2cdff3299d183fcacda3
