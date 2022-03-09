@@ -32,7 +32,6 @@
 #import "RKSocket.h"
 #import "SRSecurityPolicy.h"
 #import "SRWebSocket.h"
-#import "SwiftSocket.h"
 
 FOUNDATION_EXPORT double RKSocketVersionNumber;
 FOUNDATION_EXPORT const unsigned char RKSocketVersionString[];

@@ -28,6 +28,5 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
   s.source_files = 'RKSocket/Classes/**/*'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
 end
