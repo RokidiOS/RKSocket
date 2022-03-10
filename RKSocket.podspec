@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKSocket'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'rokid 基础socket库'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/chzy/RKSocket'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chzy' => 'yang.chunzhi@hotmail.com' }
-  s.source           = { :git => 'git@gitlab.rokid-inc.com:xr_app_platform/ios/basic/rksocket.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:RokidiOS/RKSocket.git', :tag => s.version.to_s }
   s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
   s.source_files = 'RKSocket/Classes/**/*'
