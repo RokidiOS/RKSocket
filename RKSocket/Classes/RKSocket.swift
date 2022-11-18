@@ -48,7 +48,7 @@ public class RKSocket: NSObject {
     public func config(_ requestString: String) {
         let url = URL(string: requestString)
         guard let url = url else { return }
-        client = SRWebSocket(url: url)
+        client = SRWebSocket(url: url, securityPolicy: SRSecurityPolicy(certificateChainValidationEnabled: false))
         client?.delegate = self
     }
     
